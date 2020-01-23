@@ -65,6 +65,7 @@ export default ({ data }) => {
         mobileMinHeight: '93vh',
       }}
     >
+      <h1>Hello World from Gatsby</h1>
       <ProjectsSlider data={data.allCaseStudy} />
       <WhatWeDo ref={halfPage} />
       {hasScrolled ? (
